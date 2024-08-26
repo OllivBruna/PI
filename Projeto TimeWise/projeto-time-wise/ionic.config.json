@@ -1,0 +1,7 @@
+{
+  "name": "Projeto TimeWise",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

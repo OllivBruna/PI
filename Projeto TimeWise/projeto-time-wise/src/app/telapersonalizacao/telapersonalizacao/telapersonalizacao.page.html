@@ -1,0 +1,38 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Tela Personalização</ion-title>
+    <ion-icon md="arrow-back-circle-outline" (click)="VoltarTelaPrincipal()"></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">telapersonalizacao</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="botaoweb">
+    <ion-button (click)="NavTelaDesignWeb()">Design do WebSite</ion-button>
+  </div>
+
+  <div class="botaoservico">
+    <ion-button (click)="NavTelaCriarServico()">Criar Serviço</ion-button>
+  </div>
+
+  <div class="botaoeditar">
+    <ion-button (click)="NavTelaEditarServico()">Editar Serviço</ion-button>
+  </div>
+
+  <div class="botaopreview">
+    <ion-button (click)="NavTelaPrevieWeb()">Preview WebSite</ion-button>
+  </div>
+
+  <div class="botaocadastro">
+    <ion-button (click)="NavTelaCadastrarFuncionario()">Cadastrar Funcionário</ion-button>
+  </div>
+
+
+
+
+</ion-content>

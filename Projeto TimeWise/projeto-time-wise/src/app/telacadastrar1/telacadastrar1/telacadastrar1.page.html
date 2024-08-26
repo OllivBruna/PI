@@ -1,0 +1,27 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Tela Física/Jurídica</ion-title>
+    <ion-icon md="arrow-back-circle-outline" (click)="VoltarTelaHome()"></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+  </ion-header>
+
+  <div id="container">
+
+    <ion-input placeholder="Insira seu E-mail"></ion-input>
+
+    <ion-button (click)="SalvarEmail()">Salvar</ion-button>
+    <br>
+
+    <ion-button (click)="PessoaJuridica()">Pessoa Jurídica</ion-button>
+    <br>
+    
+    <ion-button (click)="PessoaFisica()">Pessoa Física</ion-button>
+  </div>
+
+
+
+</ion-content>
